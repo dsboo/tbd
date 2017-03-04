@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "thinkpad13 manjaro linux 16.10.3 설치기"
-date: 2017-03-04 03:37:33 +0900
+title:  "thinkpad13 manjaro linux 16.10.3 설치기"
+date:   2017-03-04 03:37:33 +0900
 categories: linux manjaro thinkpad13
 ---
 작년에 구매한 thinkpad13(i3, ddr4)에 ubuntu 16.04 LTS 버전을 사용하고 있었다. 잘 사용하고 있었지만, 시스템이 무겁다는 생각을 버릴 수가 없어서 OS 재설치를 결심했다.
