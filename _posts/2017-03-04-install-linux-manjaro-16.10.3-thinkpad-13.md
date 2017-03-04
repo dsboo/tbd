@@ -9,7 +9,7 @@ categories: linux manjaro thinkpad13
 잘 사용하고 있었지만, 시스템이 무겁다는 생각을 버릴 수가 없어서 OS 재설치를 결심했다.\
 
 # OS선정
-====
+----
 지금까지 사용해본 리눅스 배포판 중 가장 오래 사용한 배포판은 우분투10.04LTS 버전(MSI U200X)이다.\
 이 랩탑에 설치된 GCC버전을 무리하게 업데이트하면서 의존성이 꼬였고 의존성이 꼬인상태에서 다음 버전으로 업그레이드가 안되면서 포맷을 하게되었는데, 그때는 이미 랩탑을 구입한지 4년후였다.\
 이후에는 저사양에 적합한 리눅스 배포판을 찾기위해 포맷 -> 하루이틀 사용 -> 포맷이 반복되었다.\
@@ -25,51 +25,51 @@ categories: linux manjaro thinkpad13
 
 여러 후보군 - Debian, arch, Antergos - 이 있었지만,나에겐 xfce를 기본으로 배포하는 manjaro linux가 가장 적합할 것으로 판단했다.
 
-#다운로드
+# 다운로드
 ----
 
-#boot USB 생성
+# boot USB 생성
 ----
 
-#install
+# install
 ----
 
-##UFI부팅
+## UFI부팅
 ----
 
-##파티셔닝
+## 파티셔닝
 ----
 
-#설정
+# 설정
 ----
 
-##업데이트
+## 업데이트
 ----
 
-##HiDPI
+## HiDPI
 ----
 
-##Dock
+## Dock
 ----
 
-##theme
+## theme
 ----
 
-##한글입력기
+## 한글입력기
 ----
 
-##tlp
+## tlp
 ----
 
-##thinkpad fan controller
+## thinkpad fan controller
 ----
 
-##font
+## font
 ----
 
-##터치패드 제스쳐
+## 터치패드 제스쳐
 ----
 
-##xfdashboard
+## xfdashboard
 ----
 
