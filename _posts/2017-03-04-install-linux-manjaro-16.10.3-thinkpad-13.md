@@ -6,6 +6,7 @@ categories: linux manjaro thinkpad13
 ---
 작년에 구매한 thinkpad13(i3, ddr4)에 ubuntu 16.04 LTS 버전을 사용하고 있었다. 잘 사용하고 있었지만, 시스템이 무겁다는 생각을 버릴 수가 없어서 OS 재설치를 결심했다.
 
+
 OS선정
 ======
 
