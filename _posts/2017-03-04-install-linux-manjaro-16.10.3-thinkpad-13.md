@@ -1,10 +1,9 @@
 ---
-
-layout: post title: "thinkpad13 manjaro linux 16.10.3 설치기" date: 2017-03-04 03:37:33 +0900
-
+layout: post
+title: "thinkpad13 manjaro linux 16.10.3 설치기"
+date: 2017-03-04 03:37:33 +0900
 categories: linux manjaro thinkpad13
-------------------------------------
-
+---
 작년에 구매한 thinkpad13(i3, ddr4)에 ubuntu 16.04 LTS 버전을 사용하고 있었다. 잘 사용하고 있었지만, 시스템이 무겁다는 생각을 버릴 수가 없어서 OS 재설치를 결심했다.
 
 OS선정
@@ -128,11 +127,11 @@ firefox memory cache
 HiDPI
 -----
 
-모니터크기와 해당도에 해당하는 DPI는 아래 사이트에서 확인
+모니터크기와 해상도에 해당하는 DPI는 아래 사이트에서 확인
 
 [https://www.sven.de/dpi/\]
 
-[Whisker menu] -> [settings] -> [Appearance] -> custm DPI Settings 165
+[Whisker menu] -> [settings] -> [Appearance] -> custm DPI Settings 165(13.3inch / 1920*1080)
 
 Dock
 ----
@@ -182,6 +181,11 @@ tlp
 ---
 
 ---
+
+```
+sudo pacman -Sy tlp
+sudo tlp stat // 확인용
+```
 
 thinkpad fan controller
 -----------------------
