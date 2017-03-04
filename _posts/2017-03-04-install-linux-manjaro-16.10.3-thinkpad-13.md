@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "thinkpad13 manjaro linux 16.10.3 설치기"
-date: 2017-03-04 03:37:33 +0900
+title:  "thinkpad13 manjaro linux 16.10.3 설치기"
+date:   2017-03-04 03:37:33 +0900
 categories: linux manjaro thinkpad13
 ---
 
