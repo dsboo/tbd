@@ -26,7 +26,7 @@ github_username: dsboo
 
 # Build settings
 markdown: kramdown
-theme: white-paper
+theme: jekyll-theme-midnight
 gems:
   - jekyll-feed
 exclude:
