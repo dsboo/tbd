@@ -309,3 +309,31 @@ sleep상태에서 wakeup이 되지 않는 현상
 따라서 LTS버전인 linux 4.9.13-1 버전으로 업데이트하였다.
 
 [Whisker menu] -> [Setting] -> [manjaro Setting Manager] ->[Kernel] 기능으로 쉽게 업데이트할 수 있다.
+
+## Manjaro XFCE Setting
+
+### remove window titlebar in xfce
+
+Recent versions of XFCE have this built-in. Check out Settings Manager > Window Manager Tweaks > Accessibility > Hide title of windows when maximized.
+Maximized windows will not have the title bar then, while non-maximized windows will have it. Tested on ArchLinux, xfce version 4.12.0-4.
+
+### merge both window's titlebar(title, button) and ffce pannel
+yay -S xfce4-windowck-plugin
+use below plugin in pannel preference
+window header - button
+window header - title
+
+### dock 
+yay -S plank
+
+### application launcher
+QT_SCALE_FACTOR env is for HIDPI
+QT_SCALE_FACTOR=1 albert
+
+### terminal
+yay -S tilix
+Settings Manager > default appilcaions > Utilities > Terminal Emulator
+
+### browser
+yay -S naver-whale-stable
+Settings Manager > default appilcaions > Internet > Naver Whale
