@@ -314,8 +314,10 @@ sleep상태에서 wakeup이 되지 않는 현상
 
 ### remove window titlebar in xfce
 
-Recent versions of XFCE have this built-in. Check out Settings Manager > Window Manager Tweaks > Accessibility > Hide title of windows when maximized.
+Check out Settings Manager > Window Manager Tweaks > Accessibility > Hide title of windows when maximized.
 Maximized windows will not have the title bar then, while non-maximized windows will have it. Tested on ArchLinux, xfce version 4.12.0-4.
+
+Settings Manager > Panel > uncheck Don't reserve space on borders.
 
 ### merge both window's titlebar(title, button) and ffce pannel
 yay -S xfce4-windowck-plugin
