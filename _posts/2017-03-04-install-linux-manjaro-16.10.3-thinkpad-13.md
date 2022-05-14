@@ -320,22 +320,44 @@ Maximized windows will not have the title bar then, while non-maximized windows 
 Settings Manager > Panel > uncheck Don't reserve space on borders.
 
 ### merge both window's titlebar(title, button) and ffce pannel
+```
 yay -S xfce4-windowck-plugin
+```
 use below plugin in pannel preference
 window header - button
 window header - title
 
 ### dock 
+```
 yay -S plank
+```
 
 ### application launcher
+```
 QT_SCALE_FACTOR env is for HIDPI
 QT_SCALE_FACTOR=1 albert
+```
 
 ### terminal
+```
 yay -S tilix
 Settings Manager > default appilcaions > Utilities > Terminal Emulator
+```
 
 ### browser
+```
 yay -S naver-whale-stable
 Settings Manager > default appilcaions > Internet > Naver Whale
+```
+
+### Multi Monitor(display)
+pip install ewmh-m2m
+https://github.com/AlexisBRENON/ewmh_m2m
+
+settings > Keyboard > Keyboard shortcuts 에서 등록
+```
+move-to-monitor --direction WEST - Super + alt L + left
+move-to-monitor --direction EAST - Super + alt L + right
+move-to-monitor --direction NORTH - Super + alt L + up
+move-to-monitor --direction SOUTH - Super + alt L + down
+```
