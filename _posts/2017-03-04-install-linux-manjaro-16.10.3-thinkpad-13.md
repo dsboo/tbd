@@ -163,7 +163,17 @@ yaourt plank-theme-numix
 
 ```
 sudo pacman -Sy fcitx-hangul fcitx-configtool fcitx libhangul fcitx-gtk2 fcitx-gtk3 fcitx-qt5
+sudo vi /etc/environment
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
 ```
+
+- 로그 아웃, 로그인
+- fcitx-configtool 실행
+- Input Method 탭에서 +를 클릭하고, "Only show current language"의 체크박스를 해제하고 Hangul 검색 후 추가
+- Global Config 탭에서 토글 단축키 확인. 기본값: Control+Space (변경을 원하는 경우 해당 버튼을 클릭하여 변경. 저는 Shift+Space와 오른쪽 Alt(Ralt)키를 설정하였습니다.)
+- logout -> login
 
 font
 ----
